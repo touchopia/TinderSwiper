@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E3EA0E42DA4048B00D0482E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EA0DA2DA4048B00D0482E /* AppDelegate.swift */; };
 		5E3EA0E52DA4048B00D0482E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EA0E12DA4048B00D0482E /* SceneDelegate.swift */; };
-		5E3EA0E62DA4048B00D0482E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EA0E22DA4048B00D0482E /* ViewController.swift */; };
+		5E3EA0E62DA4048B00D0482E /* SwipingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EA0E22DA4048B00D0482E /* SwipingViewController.swift */; };
 		5E3EA0E72DA4048B00D0482E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3EA0DB2DA4048B00D0482E /* Assets.xcassets */; };
 		5E3EA0E92DA4048B00D0482E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3EA0DE2DA4048B00D0482E /* LaunchScreen.storyboard */; };
 		5E3EA0EA2DA4048B00D0482E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3EA0E02DA4048B00D0482E /* Main.storyboard */; };
@@ -25,7 +25,7 @@
 		5E3EA0DD2DA4048B00D0482E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E3EA0DF2DA4048B00D0482E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E3EA0E12DA4048B00D0482E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E3EA0E22DA4048B00D0482E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E3EA0E22DA4048B00D0482E /* SwipingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingViewController.swift; sourceTree = "<group>"; };
 		5E3EA0EB2DA404BC00D0482E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5E3EA0ED2DA404D400D0482E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,17 +60,49 @@
 		5E3EA0E32DA4048B00D0482E /* TinderSwiper */ = {
 			isa = PBXGroup;
 			children = (
-				5E3EA0DA2DA4048B00D0482E /* AppDelegate.swift */,
-				5E3EA0E22DA4048B00D0482E /* ViewController.swift */,
-				5E3EA0EB2DA404BC00D0482E /* CardView.swift */,
-				5E3EA0ED2DA404D400D0482E /* Models.swift */,
-				5E3EA0E12DA4048B00D0482E /* SceneDelegate.swift */,
+				5EDB1A7F2DA97D56009F41D3 /* Delegates */,
+				5EDB1A802DA97D5F009F41D3 /* Controllers */,
+				5EDB1A812DA97D68009F41D3 /* Views */,
+				5EDB1A822DA97D6F009F41D3 /* Models */,
 				5E3EA0DB2DA4048B00D0482E /* Assets.xcassets */,
 				5E3EA0DC2DA4048B00D0482E /* Info.plist */,
 				5E3EA0DE2DA4048B00D0482E /* LaunchScreen.storyboard */,
 				5E3EA0E02DA4048B00D0482E /* Main.storyboard */,
 			);
 			path = TinderSwiper;
+			sourceTree = "<group>";
+		};
+		5EDB1A7F2DA97D56009F41D3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5E3EA0DA2DA4048B00D0482E /* AppDelegate.swift */,
+				5E3EA0E12DA4048B00D0482E /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5EDB1A802DA97D5F009F41D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E3EA0E22DA4048B00D0482E /* SwipingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EDB1A812DA97D68009F41D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E3EA0EB2DA404BC00D0482E /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EDB1A822DA97D6F009F41D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E3EA0ED2DA404D400D0482E /* Models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +182,7 @@
 				5E3EA0E42DA4048B00D0482E /* AppDelegate.swift in Sources */,
 				5E3EA0E52DA4048B00D0482E /* SceneDelegate.swift in Sources */,
 				5E3EA0EC2DA404BC00D0482E /* CardView.swift in Sources */,
-				5E3EA0E62DA4048B00D0482E /* ViewController.swift in Sources */,
+				5E3EA0E62DA4048B00D0482E /* SwipingViewController.swift in Sources */,
 				5E3EA0EE2DA404D400D0482E /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

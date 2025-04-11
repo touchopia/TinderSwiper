@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SwipingViewController.swift
 //  TinderSwiper
 //
 //  Created by Phil Wright on 4/7/25.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SwipingViewController: UIViewController {
 
     private var profileViews: [CardView] = []
 
