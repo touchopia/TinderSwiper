@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: - Number Extensions
 extension Int {
     /// Get display formatted time from number of seconds
     /// E.g. 65s = 01:05
@@ -19,6 +20,7 @@ extension Int {
     }
 }
 
+// MARK: - UIColor Extensions
 extension UIColor {
     /// Get a random color with saturation, brightness, and alpha
     ///
