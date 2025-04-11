@@ -15,6 +15,7 @@
 		5E3EA0EA2DA4048B00D0482E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3EA0E02DA4048B00D0482E /* Main.storyboard */; };
 		5E3EA0EC2DA404BC00D0482E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EA0EB2DA404BC00D0482E /* CardView.swift */; };
 		5E3EA0EE2DA404D400D0482E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3EA0ED2DA404D400D0482E /* Models.swift */; };
+		5EDB1A882DA981C6009F41D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB1A872DA981C6009F41D3 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5E3EA0E22DA4048B00D0482E /* SwipingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingViewController.swift; sourceTree = "<group>"; };
 		5E3EA0EB2DA404BC00D0482E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5E3EA0ED2DA404D400D0482E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5EDB1A872DA981C6009F41D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		5EDB1A822DA97D6F009F41D3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5EDB1A872DA981C6009F41D3 /* Extensions.swift */,
 				5E3EA0ED2DA404D400D0482E /* Models.swift */,
 			);
 			path = Models;
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E3EA0E42DA4048B00D0482E /* AppDelegate.swift in Sources */,
+				5EDB1A882DA981C6009F41D3 /* Extensions.swift in Sources */,
 				5E3EA0E52DA4048B00D0482E /* SceneDelegate.swift in Sources */,
 				5E3EA0EC2DA404BC00D0482E /* CardView.swift in Sources */,
 				5E3EA0E62DA4048B00D0482E /* SwipingViewController.swift in Sources */,
